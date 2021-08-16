@@ -17,4 +17,4 @@ bash "$SCRIPTS_FOLDER/gnome-tweaks-setup.sh"
 
 vinstall_package -c "node" -a "node.js" -f "$SCRIPTS_FOLDER/nodesource_setup.sh"
 
-bash "$SCRIPTS_FOLDER/nvidia-gpu.sh"
+bash "$SCRIPTS_FOLDER/grub-setup.sh"
