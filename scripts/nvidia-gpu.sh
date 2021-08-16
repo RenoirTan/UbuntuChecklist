@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 
-nano /etc/default/grub
+sudo cp "$(dirname $0)/../config/etc/default/grub" /etc/default/grub
 
-update-grub
+sudo update-grub
