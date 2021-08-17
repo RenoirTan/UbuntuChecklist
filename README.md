@@ -16,6 +16,10 @@ short forms you may see in this repository.
 Tasks that I must run are listed in order of importance, with the most
 essential tasks being placed at the top.
 
+- Installing environment as an admin
+  - run `bash full-install.sh`
+- Setup environment as standard user
+  - run `bash user-install.sh`
 - If using a dedicated Nvidia GPU,
   - run `sudo bash ./scripts/nvidia-gpu.sh` to fix the issue where the screen
     goes black (you may see a cursor on the top left) and becomes unresponsive.
@@ -28,6 +32,8 @@ essential tasks being placed at the top.
     - run `sudo bash ./scripts/brave-install.sh`
   - Git
     - run `sudo bash ./scripts/git-install.sh`
+  - Pyenv
+    - run `bash ./scripts/pyenv-install.sh`
   - Python
     - run `sudo bash ./scripts/python-repo.sh`
     - run `sudo apt install python<version>` where \<version\> is the version
