@@ -9,3 +9,5 @@ source "$SCRIPTS_FOLDER/utils.sh"
 
 
 vinstall_package -c "pyenv" -a "pyenv" -f "$SCRIPTS_FOLDER/pyenv-install.sh"
+
+bash "$SCRIPTS_FOLDER/gnome-desktop-setup.sh"
