@@ -12,8 +12,7 @@ vinstall_package -c "brave-browser-stable" -a "brave browser" -f "$SCRIPTS_FOLDE
 
 vinstall_package -c "git" -a "git" -f "$SCRIPTS_FOLDER/git-install.sh"
 
-vinstall_package -c "gsettings" -c "gnome-extensions" -c "gnome-tweaks" -a "gnome tweaks" -f "$SCRIPTS_FOLDER/gnome-tweaks-install.sh"
-bash "$SCRIPTS_FOLDER/gnome-tweaks-setup.sh"
+vinstall_package -c "gsettings" -c "gnome-extensions" -c "gnome-tweaks" -a "gnome tweaks" -f "$SCRIPTS_FOLDER/gnome-tweaks-install.sh" -f "$SCRIPTS_FOLDER/gnome-tweaks-setup.sh"
 bash "$SCRIPTS_FOLDER/root-whitesur-theme-install.sh"
 
 vinstall_package -c "node" -a "node.js" -f "$SCRIPTS_FOLDER/node-install.sh"

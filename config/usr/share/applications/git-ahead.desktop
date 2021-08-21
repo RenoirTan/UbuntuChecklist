@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Git Ahead
+Comment=Understand your Git history!
+GenericName=Git GUI Client
+Exec=/usr/local/GitAhead/GitAhead
+Icon=/usr/local/GitAhead/Resources/GitAhead.iconset/icon_128x128.png
+Type=Application
+StartupNotify=false
+StartupWMClass=GitAhead
+Categories=Development;Utility;
+Keywords=git;ahead;git-ahead;gitahead;
