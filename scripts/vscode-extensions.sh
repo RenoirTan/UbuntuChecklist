@@ -32,4 +32,5 @@ vinstall_extension \
     "golang.go" \
     "adpyke.codesnap" \
     "helgardrichard.helium-icon-theme" \
-    "miguelsolorio.fluent-icons"
+    "miguelsolorio.fluent-icons" \
+    "aaron-bond.better-comments"
